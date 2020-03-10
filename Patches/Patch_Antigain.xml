@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Shell_AntigrainWarhead"]</xpath>
+        <value>
+          <costList>
+            <Shell_HighExplosive>6</Shell_HighExplosive>
+            <Steel>100</Steel>
+            <Uranium>60</Uranium>
+            <ComponentIndustrial>4</ComponentIndustrial>
+          </costList>
+          <recipeMaker>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <effectWorking>Cook</effectWorking>
+            <soundWorking>Recipe_Machining</soundWorking>
+            <workAmount>2400</workAmount>
+            <workSkill>Crafting</workSkill>
+            <recipeUsers>
+              <li>TableMachining</li>
+            </recipeUsers>
+            <skillRequirements>
+              <Crafting>10</Crafting>
+              <Intellectual>10</Intellectual>
+            </skillRequirements>
+            <productCount>2</productCount>
+            <researchPrerequisites>
+              <li>Mortars</li>
+            </researchPrerequisites>
+          </recipeMaker>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+</Patch>
