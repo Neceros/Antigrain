@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>Make_HiExplosiveShell</defName>
+    <label>make hi-explosive shell x4</label>
+    <description>Make hi-explosive shell x4.</description>
+    <jobString>Making hi-explosive shell x4.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>2300</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <recipeUsers>
+      <li>TableMachining</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>60</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Shell_HighExplosive>4</Shell_HighExplosive>
+    </products>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+      <Intellectual>5</Intellectual>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>Mortars</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>
