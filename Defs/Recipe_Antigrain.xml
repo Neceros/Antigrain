@@ -2,7 +2,7 @@
 <Defs>
 
   <RecipeDef>
-    <defName>Make_HiExplosiveShell</defName>
+    <defName>Make_HiExplosiveShellBulk</defName>
     <label>make hi-explosive shell x4</label>
     <description>Make hi-explosive shell x4.</description>
     <jobString>Making hi-explosive shell x4.</jobString>
@@ -47,6 +47,90 @@
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <researchPrerequisite>Mortars</researchPrerequisite>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Make_AntigrainBulk</defName>
+    <label>make antigrain warhead x2</label>
+    <description>Make antigrain warhead x2.</description>
+    <jobString>Making antigrain warhead x2.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>4000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <recipeUsers>
+      <li>TableMachining</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>90</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </filter>
+        <count>35</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Synthread</li>
+          </thingDefs>
+        </filter>
+        <count>16</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Shell_HighExplosive</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Uranium</li>
+        <li>Synthread</li>
+        <li>ComponentIndustrial</li>
+        <li>ComponentSpacer</li>
+        <li>Shell_HighExplosive</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Shell_AntigrainWarhead>2</Shell_AntigrainWarhead>
+    </products>
+    <skillRequirements>
+      <Crafting>17</Crafting>
+      <Intellectual>15</Intellectual>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>Research_Antigrain</researchPrerequisite>
   </RecipeDef>
 
 </Defs>

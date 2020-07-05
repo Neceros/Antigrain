@@ -7,27 +7,29 @@
         <xpath>/Defs/ThingDef[defName="Shell_AntigrainWarhead"]</xpath>
         <value>
           <costList>
-            <Shell_HighExplosive>6</Shell_HighExplosive>
-            <Steel>100</Steel>
-            <Uranium>60</Uranium>
-            <ComponentIndustrial>4</ComponentIndustrial>
+            <Steel>45</Steel>
+            <Uranium>15</Uranium>
+            <Synthread>8</Synthread>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Shell_HighExplosive>4</Shell_HighExplosive>
           </costList>
           <recipeMaker>
             <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
             <effectWorking>Cook</effectWorking>
             <soundWorking>Recipe_Machining</soundWorking>
-            <workAmount>2400</workAmount>
+            <workAmount>2500</workAmount>
             <workSkill>Crafting</workSkill>
             <recipeUsers>
               <li>TableMachining</li>
             </recipeUsers>
             <skillRequirements>
-              <Crafting>10</Crafting>
-              <Intellectual>10</Intellectual>
+              <Crafting>15</Crafting>
+              <Intellectual>12</Intellectual>
             </skillRequirements>
-            <productCount>2</productCount>
+            <productCount>1</productCount>
             <researchPrerequisites>
-              <li>Mortars</li>
+              <li>Research_Antigrain</li>
             </researchPrerequisites>
           </recipeMaker>
         </value>

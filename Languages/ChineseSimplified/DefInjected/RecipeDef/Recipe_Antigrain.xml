@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Make_HiExplosiveShellBulk.label>制作高爆弹x4</Make_HiExplosiveShellBulk.label>
+  <Make_HiExplosiveShellBulk.description>制作高爆弹x4.</Make_HiExplosiveShellBulk.description>
+  <Make_HiExplosiveShellBulk.jobString>制作高爆弹x4中.</Make_HiExplosiveShellBulk.jobString>
+
+  <Make_AntigrainBulk.label>制作反粒子彈頭x2</Make_AntigrainBulk.label>
+  <Make_AntigrainBulk.description>制作反粒子彈頭x2.</Make_AntigrainBulk.description>
+  <Make_AntigrainBulk.jobString>制作反粒子彈頭x2中.</Make_AntigrainBulk.jobString>
+
+
+</LanguageData>
